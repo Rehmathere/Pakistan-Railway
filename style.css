@@ -1,0 +1,514 @@
+body {
+    background-color: #809C23;
+}
+
+.one {
+    /* display: block;
+    text-align: center;
+    text-align: center;
+    justify-content: center; */
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 1200px;
+    height: 3200px;
+}
+
+.first {
+    background-color: white;
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 15px 5px;
+}
+
+.f1a img {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    color: white;
+    margin: 10px;
+
+}
+
+.f1a img:hover {
+    filter: invert(0.1);
+}
+
+.f2a {
+    margin: 10px;
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 590px;
+    height: 100px;
+    font-size: 3rem;
+}
+
+.f3a {
+    margin: 10px;
+    /* border: 2px solid black; */
+    width: 230px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.f3a img {
+    /* border-color: grey; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.f3a img:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+.f4a {
+    /* border: 2px solid black; */
+    display: flex;
+    height: 50px;
+    position: absolute;
+    right: 200px;
+    top: 120px;
+}
+
+.f4a button {
+    font-weight: bold;
+    background-color: aliceblue;
+    color: darkgreen;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.f4a button:hover {
+    box-shadow: 2px 2px 2px black;
+}
+
+/* Second Bar */
+.secone {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 1130px;
+    height: 55px;
+    margin: auto;
+    padding: 0px 0px;
+    background-color: #809C23;
+
+}
+
+.secone ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.second li {
+    opacity: 10.0;
+    font-size: 17px;
+    /* font-weight: bold; */
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 33px;
+    list-style: none;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    /* border: 2px solid black; */
+}
+
+.secone li:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+.third {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(107, 156, 9);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 770px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 20px 30px;
+
+}
+
+.third select {
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    /* dispn-items: center; */
+    margin: 0px 50px;
+}
+
+.third option {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+}
+
+#ones {
+    margin: 0px 50px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: yellow;
+    /* border-color:  rgb(107, 156, 9); */
+}
+/* Lines */
+.ccc{
+    border: 2px solid black;
+    width: 250px;
+    height: 10px;
+    background-color: rgb(243, 243, 9);
+    margin: 0px 20px;
+}
+/* Side First From & To Station */
+.fourth{
+    /* border: 2px solid black; */
+    width: 960px;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
+.fourth select {
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    /* dispn-items: center; */
+    margin: 0px 20px;
+}
+
+.fourth option {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+}
+.fourth input{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    /* dispn-items: center; */
+    margin: 0px 20px;
+}
+
+#Myones{
+    margin: 0px 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    /* border-color:  rgb(107, 156, 9); */
+}
+.fifth{
+    border: 2px solid black;
+    width: 800px;
+    height: 360px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    right: 210px;
+    background-image: url('slide.jpg');
+    animation-name: Rehmat;
+    animation-duration: 35s;
+    animation-iteration-count:infinite;
+}
+@keyframes Rehmat {
+    20%{
+        background-image: url('slide1.jpg');
+    }
+    40%{
+        background-image: url('slide2.jpg');
+    }
+    60%{
+        background-image: url('slide3.jpg');
+    }
+    80%{
+        background-image: url('slide4.jpg');
+    }
+    
+}
+/* -------------- Sixth ------------ */
+.six1{
+    /* border: 2px solid black; */
+    width: 200px;
+    margin: 15px 0px;
+    color: green;
+    text-align: center;
+}
+.six2{
+    /* border: 2px solid black; */
+    width: 700px;
+    margin: 0px 5px;
+    padding: 0px;
+}
+.sixth{
+    /* border: 2px solid black; */
+    width: 810px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 700px;
+    left: 510px;
+}
+#ps1{
+    font-weight: bold;
+}
+/* --------------------- Seventh --------------------- */
+#sev1 img{
+    /* border: 2px solid black; */
+    width: 300px;
+}
+.sev2 img{
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 150px;
+}
+.seventh{
+    /* border: 2px solid black; */
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 205px;
+    /* padding: 10px 0px;
+    margin: 10px 0px; */
+}
+.seventh img{
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+/* -------------- Eighth ------------ */
+.eig1{
+    /* border: 2px solid black; */
+    width: 200px;
+    color: green;
+    text-align: center;
+    margin: 15px 0px;
+
+}
+.eig2{
+    /* border: 2px solid black; */
+    width: 700px;
+    margin: 0px 5px;
+    padding: 5px;
+}
+.eighth{
+    /* border: 2px solid black; */
+    width: 810px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1100px;
+    left: 510px;
+}
+#ps1{
+    font-weight: bold;
+}
+/* Ninth */
+.nin1{
+    /* border: 2px solid black; */
+    width: 250px;
+    color: green;
+    text-align: center;
+}
+.nin2{
+    /* border: 2px solid black; */
+    width: 700px;
+    /* margin: 0px 5px;*/
+    padding: 5px;
+}
+.ninth{
+    /* border: 2px solid black; */
+    width: 810px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1400px;
+    left: 510px;
+}
+#ps1{
+    font-weight: bold;
+}
+/* ------------------- Tenth -------------------- */
+.tenth{
+    font-weight: bold;
+    color: rgb(4, 66, 4);
+    /* border: 2px solid black; */
+    width: 300px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 1600px;
+    left: 205px;
+}
+.t1{
+    /* border: 2px solid black; */
+    width: 296px;
+    height: 10px;
+    background-color: yellow;
+}
+/* ---------------------- Eleven -------------------- */
+.eee111{
+    border: 1px solid black;
+    width: 220px;
+}
+.e1{
+    margin: 0px 20px;
+}
+.e1 img{
+    /* height: 200px; */
+    width: 220px;
+}
+.eleven{
+    /* border: 2px solid black; */
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 1700px;
+    left: 500px;
+}
+/* ------------------- Tweleve ------------------------- */
+.tw1{
+    /* border: 2px solid black; */
+    width: 750px;
+    height: 6px;
+    background-color: yellow;
+}
+.twelve{
+    color: darkgreen;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 1600px;
+    left: 560px;
+}
+/* ------------------- Thirteen ------------------------- */
+.th1{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.ttthhh111{
+    /* border: 2px solid black; */
+    /* height: 20px; */
+    width: 584px;
+    margin: 0px 3px;
+    padding: 0px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+}
+#ttthhh000{
+    color: white;
+    background-color: rgb(148, 173, 4);
+}
+.thirteen{
+    /* border: 2px solid black; */
+    width: 1250px;
+    position: absolute;
+    top: 2200px;
+    left: 180px;
+}
+/* --------------------- Forteen ------------------------ */
+#MeraDep{
+    width: 200px;
+    height: 30px;
+}
+.fo2 button{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 80px;
+    cursor: pointer;
+}
+.fortheen{
+    border: 2px solid black;
+    border-color: #809C23;
+    display: flex;
+    flex-direction: row;
+    width: 1130px;
+    height: 110px;
+    padding: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 2248px;
+    left: 173px;
+    background-color: #809C23;
+}
+.fo1{
+    color: white;
+    margin: 0px 40px;
+}
+/* Fifteen */
+.fifteen img{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 2415px;
+    left: 190px;
+    width: 1150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
